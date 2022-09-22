@@ -18,8 +18,6 @@ function App() {
     setIP(res.data.IPv4);
 
   }
-
-  // https://www.google.com/maps/embed/v1/view?key=AIzaSyALrSTy6NpqdhIOUs3IQMfvjh71td2suzY&center=26.4722,-81.8122&zoom=16&maptype=satellite
   
   useEffect( () => {
     //passing getData method to the lifecycle method
@@ -40,8 +38,7 @@ function App() {
         
         <h4>IP Address: {ip}</h4>
         <h4>Location : {info.city}, {info.state} {info.postal}</h4>
-        {/* <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-81.95096969604494%2C26.425079200885378%2C-81.75939559936525%2C26.519428106704105&amp;layer=mapnik" style={{border: "1px solid black"}}></iframe><br/> */}
-      </div>
+       </div>
     );
   }
 

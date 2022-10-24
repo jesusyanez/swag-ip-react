@@ -12,7 +12,7 @@ function App() {
 
   //creating function to load ip address from the API
   const getData = async () => {
-    const res = await axios.get("https://info.aesap.workers.dev, {
+    const res = await axios.get("https://info.aesap.workers.dev", {
       crossDomain: true,
     });
     console.log(res.data);

@@ -1,5 +1,4 @@
 .App {
-  margin-top: 10px;
   text-align: center;
 }
 
@@ -14,6 +13,12 @@
   }
 }
 
+.card {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: start;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

@@ -29,7 +29,7 @@ function App() {
         <nav class="navbar bg-grey">
           <div class="container-fluid">
             <a class="navbar-brand" href="/">
-              <h1>IP Buddy</h1>
+              <h2>IP Buddy</h2>
             </a>
           </div>
         </nav>
